@@ -23,4 +23,17 @@ Enter another number:  -2
 opposite
 '''
 
-#start writing your code below
+numero = int(input("Enter a number: "))
+number = int(input("Enter another number: "))
+
+if (numero > 0 and number > 0):
+  print("positive")
+
+elif (numero<0 and number<0):
+  print ("negative")
+
+elif (numero==0 or number==0):
+  print("zero")
+
+else:
+  print("opposite")

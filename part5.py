@@ -21,5 +21,16 @@ Enter a month:  February
 Enter a month:  Saturday
 not a month
 '''
+month = input(("Enter a month: "))
 
-#start writing your code below
+if month in ("February", "febuary"):
+	print(" 28 or 29 days")
+
+elif month in ("April", "april", "June", "june", "September", "septembe", "November", "november"):
+	print(" 30 days")
+
+elif month in ("January", "january", "March", "march",  "May", "may", "July", "july", "August", "august", "October", "october", "December", "december"):
+	print("31 days")
+
+else:
+	print("not a month ")
